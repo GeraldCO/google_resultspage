@@ -1,0 +1,119 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+.profile img{
+    border-radius: 50%;
+    display:flex;
+}
+
+.apps img {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: 200px 600px 200px;
+}
+
+.first-2-items{
+ 
+}
+
+.first-2-items div{
+ 
+}
+.min-width{
+    display:flex;
+    width: auto;
+}
+
+.google_logo img{
+    width: 90px;
+    height: 32px;
+}
+
+
+#search {
+    width: 487px;
+    height: 34px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    padding: 0 50px;
+}
+
+
+
+#search:focus {
+    width: 487px;
+    height: 34px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    padding: 0 50px;
+    box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+    margin: auto;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.result h3{
+    font-size: 20px;
+    color: #1a0dab;
+    margin: 4px 0;
+}
+
+.result{
+    width: 600px;
+    line-height: 1.2;
+    text-align: left;
+    color: rgb(77, 81, 86);;
+}
+
+.result span{
+    color: rgb(32, 33, 36);
+}
+
+.google_pages{
+    width: 372px;
+    height: auto;
+}
+
+.nicaragua{
+    padding: 10px 0 10px 0;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    width: 100%;
+    background-color:#F2F2F2;
+    justify-content: end;
+    line-height: 40px;
+
+}
+
+.footer-menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.right-menu{
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+footer span{
+margin-left: 15px;
+color: rgba(0, 0, 0, 0.54);
+}
+
